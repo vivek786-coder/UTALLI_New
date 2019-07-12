@@ -28,11 +28,11 @@ enum EasingType: String {
     
     var rawValue: String {
         switch self {
-        case .linear: return kCAMediaTimingFunctionLinear
-        case .easeIn: return kCAMediaTimingFunctionEaseIn
-        case .easeOut: return kCAMediaTimingFunctionEaseOut
-        case .easeInOut: return kCAMediaTimingFunctionEaseInEaseOut
-        case .defaultEasing: return kCAMediaTimingFunctionDefault
+        case .linear: return CAMediaTimingFunctionName.linear.rawValue
+        case .easeIn: return CAMediaTimingFunctionName.easeIn.rawValue
+        case .easeOut: return CAMediaTimingFunctionName.easeOut.rawValue
+        case .easeInOut: return CAMediaTimingFunctionName.easeInEaseOut.rawValue
+        case .defaultEasing: return CAMediaTimingFunctionName.default.rawValue
         }
     }
 }
@@ -70,7 +70,7 @@ internal extension CommonAnimation {
         animation.keyPath = keyPath.rawValue
         animation.toValue = to
         animation.duration = duration
-        animation.timingFunction = CAMediaTimingFunction(name: easing.rawValue)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName(rawValue: easing.rawValue))
         return animation
     }
 }
