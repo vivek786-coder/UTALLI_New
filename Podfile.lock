@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BPCircleActivityIndicator (0.1)
+  - FBSDKCoreKit (5.2.1):
+    - FBSDKCoreKit/Basics (= 5.2.1)
+    - FBSDKCoreKit/Core (= 5.2.1)
+  - FBSDKCoreKit/Basics (5.2.1)
+  - FBSDKCoreKit/Core (5.2.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher/Core (1.2.2)
+  - IQKeyboardManager (6.4.0)
+  - RappleProgressHUD (3.0.4)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SkyFloatingLabelTextField (3.7.0)
+  - Stripe (15.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BPCircleActivityIndicator
+  - FBSDKLoginKit
+  - GoogleSignIn
+  - IQKeyboardManager
+  - RappleProgressHUD
+  - SDWebImage (~> 4.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+  - Stripe
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BPCircleActivityIndicator
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - RappleProgressHUD
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - Stripe
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BPCircleActivityIndicator: 8ec5d896c8a05fc916203f990f0037f78d223256
+  FBSDKCoreKit: e1ab8d86f5eea2d7aa6ab12acca3e1d2dcb11983
+  FBSDKLoginKit: 6e20e44775ddf4b159a8ca676834325e13d12221
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  RappleProgressHUD: c57f20ee8e2965c6107aaf76b97ed0f33f00bc1d
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
+
+PODFILE CHECKSUM: 273f44fdd89d73aca746d65f1112fdd15877411f
+
+COCOAPODS: 1.6.1
