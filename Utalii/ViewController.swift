@@ -16,5 +16,10 @@ class ViewController: UIViewController {
         print("Hello word")
     }
     
+    @IBAction func loginBtnClicked(_ sender : UIButton){
+        
+        self.performSegue(withIdentifier: "tabBarIdentifier", sender: nil)
+    }
+    
 }
 
