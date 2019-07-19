@@ -18,6 +18,9 @@
 		3A8BF97422E04C11008DA199 /* MobileVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97322E04C11008DA199 /* MobileVerificationVC.swift */; };
 		3A8BF97622E04ED5008DA199 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97522E04ED5008DA199 /* HelpVC.swift */; };
 		3A8BF97822E053CB008DA199 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97722E053CB008DA199 /* NotificationVC.swift */; };
+		3A91A91522E17171003CB07B /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91422E17171003CB07B /* OtpVerificationVC.swift */; };
+		3A91A91722E17CFD003CB07B /* SignUpQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */; };
+		3A91A91922E180C2003CB07B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91822E180C2003CB07B /* ProfileVC.swift */; };
 		3AA9F27022DF061500C89C1A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F26F22DF061500C89C1A /* UIViewExtension.swift */; };
 		3AA9F27222DF1E1100C89C1A /* GuideListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F27122DF1E1100C89C1A /* GuideListVC.swift */; };
 		3AA9F27422DF2E6900C89C1A /* AfterRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F27322DF2E6900C89C1A /* AfterRequestVC.swift */; };
@@ -84,6 +87,9 @@
 		3A8BF97322E04C11008DA199 /* MobileVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVerificationVC.swift; sourceTree = "<group>"; };
 		3A8BF97522E04ED5008DA199 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
 		3A8BF97722E053CB008DA199 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		3A91A91422E17171003CB07B /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
+		3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQuestionsVC.swift; sourceTree = "<group>"; };
+		3A91A91822E180C2003CB07B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		3AA9F26F22DF061500C89C1A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		3AA9F27122DF1E1100C89C1A /* GuideListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideListVC.swift; sourceTree = "<group>"; };
 		3AA9F27322DF2E6900C89C1A /* AfterRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterRequestVC.swift; sourceTree = "<group>"; };
@@ -197,6 +203,9 @@
 				3A8BF97322E04C11008DA199 /* MobileVerificationVC.swift */,
 				3A8BF97522E04ED5008DA199 /* HelpVC.swift */,
 				3A8BF97722E053CB008DA199 /* NotificationVC.swift */,
+				3A91A91422E17171003CB07B /* OtpVerificationVC.swift */,
+				3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */,
+				3A91A91822E180C2003CB07B /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = SOURCE_ROOT;
@@ -594,6 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A91A91722E17CFD003CB07B /* SignUpQuestionsVC.swift in Sources */,
 				3A8BF97222E0359E008DA199 /* RecoverPasswordVC.swift in Sources */,
 				3A8BF97422E04C11008DA199 /* MobileVerificationVC.swift in Sources */,
 				3A7DFB0422DDAF9000EB4C3B /* GuideCell.swift in Sources */,
@@ -601,8 +611,10 @@
 				3A7DFB0822DDB5AC00EB4C3B /* HomeVC.swift in Sources */,
 				3AA9F27422DF2E6900C89C1A /* AfterRequestVC.swift in Sources */,
 				B15EB9FD22D889E90030F1BB /* UTView.swift in Sources */,
+				3A91A91922E180C2003CB07B /* ProfileVC.swift in Sources */,
 				3AA9F27022DF061500C89C1A /* UIViewExtension.swift in Sources */,
 				3A8BF97022E029D2008DA199 /* SettingVC.swift in Sources */,
+				3A91A91522E17171003CB07B /* OtpVerificationVC.swift in Sources */,
 				3A7DFB0C22DDB64900EB4C3B /* MessageVC.swift in Sources */,
 				3AA9F27822DF725800C89C1A /* UITextFieldExtension.swift in Sources */,
 				3A8BF97622E04ED5008DA199 /* HelpVC.swift in Sources */,
