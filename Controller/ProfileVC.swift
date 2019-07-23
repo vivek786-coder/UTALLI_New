@@ -53,5 +53,7 @@ extension ProfileVC : UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let vc  = self.storyboard?.instantiateViewController(withIdentifier: "SettingVC") as! SettingVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

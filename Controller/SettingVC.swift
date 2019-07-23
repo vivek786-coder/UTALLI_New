@@ -54,5 +54,10 @@ extension SettingVC : UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        if indexPath.row == 1{
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "HelpVC") as! HelpVC
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
     }
 }

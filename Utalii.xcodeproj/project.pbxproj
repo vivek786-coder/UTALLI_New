@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2508D822E729AF0014F2EB /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2508D722E729AF0014F2EB /* PaymentVC.swift */; };
 		3A63B85B22E5D8F600BF90CD /* TripDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63B85A22E5D8F600BF90CD /* TripDetailsVC.swift */; };
 		3A7DFB0222DDAF7900EB4C3B /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DFB0122DDAF7900EB4C3B /* DestinationCell.swift */; };
 		3A7DFB0422DDAF9000EB4C3B /* GuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DFB0322DDAF9000EB4C3B /* GuideCell.swift */; };
@@ -19,6 +20,7 @@
 		3A8BF97422E04C11008DA199 /* MobileVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97322E04C11008DA199 /* MobileVerificationVC.swift */; };
 		3A8BF97622E04ED5008DA199 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97522E04ED5008DA199 /* HelpVC.swift */; };
 		3A8BF97822E053CB008DA199 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BF97722E053CB008DA199 /* NotificationVC.swift */; };
+		3A911F5122E6D82C00470695 /* UploadDocumentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A911F5022E6D82C00470695 /* UploadDocumentVC.swift */; };
 		3A91A91522E17171003CB07B /* OtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91422E17171003CB07B /* OtpVerificationVC.swift */; };
 		3A91A91722E17CFD003CB07B /* SignUpQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */; };
 		3A91A91922E180C2003CB07B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91A91822E180C2003CB07B /* ProfileVC.swift */; };
@@ -77,6 +79,7 @@
 		036115E6D427E53BB1D4ABE3 /* Pods_UtaliiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UtaliiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1EAB00CB2E23F141FAA84E /* Pods_Utalii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Utalii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3842F7000EB1DF497E7A322E /* Pods-UtaliiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UtaliiUITests.debug.xcconfig"; path = "Target Support Files/Pods-UtaliiUITests/Pods-UtaliiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2508D722E729AF0014F2EB /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		3A63B85A22E5D8F600BF90CD /* TripDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsVC.swift; sourceTree = "<group>"; };
 		3A7DFB0122DDAF7900EB4C3B /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
 		3A7DFB0322DDAF9000EB4C3B /* GuideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCell.swift; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		3A8BF97322E04C11008DA199 /* MobileVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVerificationVC.swift; sourceTree = "<group>"; };
 		3A8BF97522E04ED5008DA199 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
 		3A8BF97722E053CB008DA199 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		3A911F5022E6D82C00470695 /* UploadDocumentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDocumentVC.swift; sourceTree = "<group>"; };
 		3A91A91422E17171003CB07B /* OtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationVC.swift; sourceTree = "<group>"; };
 		3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQuestionsVC.swift; sourceTree = "<group>"; };
 		3A91A91822E180C2003CB07B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 				3A91A91622E17CFD003CB07B /* SignUpQuestionsVC.swift */,
 				3A91A91822E180C2003CB07B /* ProfileVC.swift */,
 				3A63B85A22E5D8F600BF90CD /* TripDetailsVC.swift */,
+				3A911F5022E6D82C00470695 /* UploadDocumentVC.swift */,
+				3A2508D722E729AF0014F2EB /* PaymentVC.swift */,
 			);
 			path = Controller;
 			sourceTree = SOURCE_ROOT;
@@ -612,6 +618,7 @@
 				3A7DFB0422DDAF9000EB4C3B /* GuideCell.swift in Sources */,
 				3A7DFB0A22DDB63A00EB4C3B /* MyTourVC.swift in Sources */,
 				3A7DFB0822DDB5AC00EB4C3B /* HomeVC.swift in Sources */,
+				3A911F5122E6D82C00470695 /* UploadDocumentVC.swift in Sources */,
 				3AA9F27422DF2E6900C89C1A /* AfterRequestVC.swift in Sources */,
 				B15EB9FD22D889E90030F1BB /* UTView.swift in Sources */,
 				3A91A91922E180C2003CB07B /* ProfileVC.swift in Sources */,
@@ -626,6 +633,7 @@
 				3A7DFB0222DDAF7900EB4C3B /* DestinationCell.swift in Sources */,
 				B15EB9FB22D889C80030F1BB /* UTButton.swift in Sources */,
 				B17DA91422D4745C007B6A52 /* Utalii.xcdatamodeld in Sources */,
+				3A2508D822E729AF0014F2EB /* PaymentVC.swift in Sources */,
 				3A7DFB0622DDAFC100EB4C3B /* DestinationCollectionViewCell.swift in Sources */,
 				3AA9F27222DF1E1100C89C1A /* GuideListVC.swift in Sources */,
 				3A8BF97822E053CB008DA199 /* NotificationVC.swift in Sources */,

@@ -99,5 +99,7 @@ extension HomeVC: UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AfterRequestVC") as! AfterRequestVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
