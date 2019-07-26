@@ -12,7 +12,7 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var headerView: UIView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,12 +21,10 @@ class HomeVC: UIViewController {
         tableView.tableHeaderView = headerView
         tableView.tableFooterView = UIView()
     }
-
-   
+    
 }
 
 extension HomeVC : UITableViewDataSource{
-    
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
@@ -61,10 +59,10 @@ extension HomeVC : UITableViewDataSource{
             let cell : DestinationCell = (tableView.dequeueReusableCell(withIdentifier: "destinationTableCell") as? DestinationCell)!
             
             return cell
+            
         }else if indexPath.section == 1 {
             
             let cell : GuideCell = (tableView.dequeueReusableCell(withIdentifier: "guideCell") as? GuideCell)!
-    
             cell.cardView.drawCardView()
             
             return cell
@@ -73,6 +71,7 @@ extension HomeVC : UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
         if indexPath.section == 0{
             return 120
         }else if indexPath.section == 1 {

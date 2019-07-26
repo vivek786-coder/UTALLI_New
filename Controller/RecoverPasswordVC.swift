@@ -67,6 +67,16 @@ class RecoverPasswordVC: UIViewController {
         }
     }
     
+    @IBAction func verifyBtnClicked(_ sender : UIButton){
+        
+        WebService.postRequest(url: Constant.baseUrl+Constant.sendOtpToMobileNumber, requestMethod: Constant.postMethod, params: ["password": self.passwordTF.text ?? "","otp":"547Q","id":"2"]) { (error, response) in
+            
+            if error == nil{
+                
+            }
+        }
+    }
+    
 
 
 }

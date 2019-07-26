@@ -60,7 +60,6 @@ extension UploadDocumentVC : UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
-        
         if tableView == placeTableview{
             
              let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
@@ -92,9 +91,6 @@ extension UploadDocumentVC : UITableViewDataSource{
         }
         return 80
     }
-    
-    
-    
     
 }
 

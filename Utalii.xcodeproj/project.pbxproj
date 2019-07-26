@@ -29,7 +29,9 @@
 		3AA9F27422DF2E6900C89C1A /* AfterRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F27322DF2E6900C89C1A /* AfterRequestVC.swift */; };
 		3AA9F27622DF6ED600C89C1A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F27522DF6ED600C89C1A /* SignUpVC.swift */; };
 		3AA9F27822DF725800C89C1A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9F27722DF725800C89C1A /* UITextFieldExtension.swift */; };
-		3AE6D2FA22DE19A3009DB9AA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D2F922DE19A3009DB9AA /* ColorExtension.swift */; };
+		3AC86F8022E986A200B0FF95 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC86F7F22E986A200B0FF95 /* WebService.swift */; };
+		3AC86F8222E9873200B0FF95 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC86F8122E9873200B0FF95 /* Constant.swift */; };
+		3AE6D2FA22DE19A3009DB9AA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6D2F922DE19A3009DB9AA /* UIColorExtension.swift */; };
 		4BD7DE570FDEE427705E659B /* Pods_UtaliiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86E81549223657995988262 /* Pods_UtaliiTests.framework */; };
 		4BD9A8E0987C751536A488F3 /* Pods_Utalii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1EAB00CB2E23F141FAA84E /* Pods_Utalii.framework */; };
 		B15EB9FB22D889C80030F1BB /* UTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15EB9FA22D889C80030F1BB /* UTButton.swift */; };
@@ -101,7 +103,9 @@
 		3AA9F27322DF2E6900C89C1A /* AfterRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterRequestVC.swift; sourceTree = "<group>"; };
 		3AA9F27522DF6ED600C89C1A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		3AA9F27722DF725800C89C1A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		3AE6D2F922DE19A3009DB9AA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3AC86F7F22E986A200B0FF95 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3AC86F8122E9873200B0FF95 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3AE6D2F922DE19A3009DB9AA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		65D4157F560876E5AF830432 /* Pods-UtaliiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UtaliiTests.debug.xcconfig"; path = "Target Support Files/Pods-UtaliiTests/Pods-UtaliiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66E4DE215876CE9127377725 /* Pods-UtaliiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UtaliiTests.release.xcconfig"; path = "Target Support Files/Pods-UtaliiTests/Pods-UtaliiTests.release.xcconfig"; sourceTree = "<group>"; };
 		9930A5530D177A82A589D156 /* Pods-Utalii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utalii.debug.xcconfig"; path = "Target Support Files/Pods-Utalii/Pods-Utalii.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 		3A7F299522DC55F400447D5E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3AC86F8122E9873200B0FF95 /* Constant.swift */,
+				3AC86F7F22E986A200B0FF95 /* WebService.swift */,
 			);
 			name = Common;
 			path = Utalii/Common;
@@ -311,7 +317,7 @@
 				B15EB9FA22D889C80030F1BB /* UTButton.swift */,
 				B15EB9FC22D889E90030F1BB /* UTView.swift */,
 				B15EB9FE22D88A160030F1BB /* UTIMageView.swift */,
-				3AE6D2F922DE19A3009DB9AA /* ColorExtension.swift */,
+				3AE6D2F922DE19A3009DB9AA /* UIColorExtension.swift */,
 				3AA9F26F22DF061500C89C1A /* UIViewExtension.swift */,
 				3AA9F27722DF725800C89C1A /* UITextFieldExtension.swift */,
 			);
@@ -630,6 +636,8 @@
 				3A8BF97622E04ED5008DA199 /* HelpVC.swift in Sources */,
 				B17DA90E22D4745C007B6A52 /* ViewController.swift in Sources */,
 				B17DA90C22D4745C007B6A52 /* AppDelegate.swift in Sources */,
+				3AC86F8022E986A200B0FF95 /* WebService.swift in Sources */,
+				3AC86F8222E9873200B0FF95 /* Constant.swift in Sources */,
 				3A7DFB0222DDAF7900EB4C3B /* DestinationCell.swift in Sources */,
 				B15EB9FB22D889C80030F1BB /* UTButton.swift in Sources */,
 				B17DA91422D4745C007B6A52 /* Utalii.xcdatamodeld in Sources */,
@@ -639,7 +647,7 @@
 				3A8BF97822E053CB008DA199 /* NotificationVC.swift in Sources */,
 				3A63B85B22E5D8F600BF90CD /* TripDetailsVC.swift in Sources */,
 				B15EB9FF22D88A160030F1BB /* UTIMageView.swift in Sources */,
-				3AE6D2FA22DE19A3009DB9AA /* ColorExtension.swift in Sources */,
+				3AE6D2FA22DE19A3009DB9AA /* UIColorExtension.swift in Sources */,
 				3AA9F27622DF6ED600C89C1A /* SignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

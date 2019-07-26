@@ -16,18 +16,15 @@ class ProfileVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //Do any additional setup after loading the view.
         tableView.tableFooterView = UIView()
     }
     
     override func viewWillLayoutSubviews() {
         logoutView.drawCardView()
     }
-    
-
   
 }
-
 
 extension ProfileVC : UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,9 +40,6 @@ extension ProfileVC : UITableViewDataSource{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 70
     }
-    
-    
-    
     
 }
 

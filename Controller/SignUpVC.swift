@@ -20,8 +20,7 @@ class SignUpVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
+        self.navigationController?.navigationBar.barTintColor = .white
     }
     
     override func viewWillLayoutSubviews() {
@@ -31,7 +30,15 @@ class SignUpVC: UIViewController {
         self.passwordTF.setBottomBorder()
         self.confirmPassTF.setBottomBorder()
     }
-
-   
+    
+    @IBAction func signUpBtnClicked(_ sender : UIButton){
+        
+        WebService.postRequest(url: Constant.baseUrl+Constant.signUp, requestMethod: Constant.postMethod, params: ["name": nameTF.text ?? "","email":self.emailTF.text ?? "","mobile_no":self.mobileTF.text ?? "", "password":self.passwordTF.text ?? "",       "dob":"2019-06-06","gender":"female","device_token":"sdkjfdsjflksdjfklsdjfkljdsf","otp":""]) { (error, response) in
+            
+            if error == nil{
+                
+            }
+        }
+    }
 
 }

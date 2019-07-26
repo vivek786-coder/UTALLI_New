@@ -21,11 +21,10 @@ class SettingVC: UIViewController {
         settingArray = [["title":"Notification", "icon":"ic_bell"], ["title":"Help and support", "icon":"ic_help"], ["title":"Privacy policy", "icon":"ic_privacy"],["title":"About us", "icon":"ic_about_us"]]
         tableView.tableFooterView = UIView()
     }
-    
-
 }
 
 extension SettingVC : UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
@@ -36,7 +35,6 @@ extension SettingVC : UITableViewDataSource{
         let titleLbl    = cell.viewWithTag(101) as? UILabel
         let titleIcon   = cell.viewWithTag(102) as? UIImageView
        
-        
         titleLbl?.text = settingArray[indexPath.row]["title"] as? String
         titleIcon?.image = UIImage(named: (settingArray[indexPath.row]["icon"] as? String)!)
         

@@ -10,17 +10,11 @@ import UIKit
 
 class TripDetailsVC: UIViewController {
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-
-  
-
 }
 
 extension TripDetailsVC : UICollectionViewDataSource{
@@ -34,8 +28,6 @@ extension TripDetailsVC : UICollectionViewDataSource{
         
         return cell
     }
-    
-    
 }
 
 extension TripDetailsVC : UICollectionViewDelegateFlowLayout
@@ -60,6 +52,7 @@ extension TripDetailsVC : UICollectionViewDelegateFlowLayout
     }
     
 }
+
 extension TripDetailsVC : UICollectionViewDelegate{
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

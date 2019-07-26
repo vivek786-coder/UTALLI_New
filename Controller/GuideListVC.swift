@@ -20,13 +20,11 @@ class GuideListVC: UIViewController {
         
         tableView.tableHeaderView = headerView
         tableView.tableFooterView = UIView()
+        
     }
-    
-
 }
 
 extension GuideListVC : UITableViewDataSource{
-    
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
@@ -44,6 +42,7 @@ extension GuideListVC : UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
         if section == 0{
             return "You are visiting"
         }else if section == 1 {
@@ -59,21 +58,19 @@ extension GuideListVC : UITableViewDataSource{
         if indexPath.section == 0{
             
             let cell  =  tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-            
             return cell
             
         }else if indexPath.section == 1 {
             
             let cell : GuideCell = (tableView.dequeueReusableCell(withIdentifier: "guideCell") as? GuideCell)!
-            
             cell.cardView.drawCardView()
-            
             return cell
         }
         return cell!
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
         if indexPath.section == 0{
             return 70
         }else if indexPath.section == 1 {
@@ -92,7 +89,6 @@ extension GuideListVC : UITableViewDataSource{
         
         return 40
     }
-    
     
 }
 

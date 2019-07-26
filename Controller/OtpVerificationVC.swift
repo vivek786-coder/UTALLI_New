@@ -31,5 +31,7 @@ class OtpVerificationVC: UIViewController {
         tfThree.setBottomBorder()
         tfFour.setBottomBorder()
     }
+    
+  
 
 }

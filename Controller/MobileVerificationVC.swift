@@ -23,5 +23,15 @@ class MobileVerificationVC: UIViewController {
         cardView.drawCardView()
         mobileTF.setBottomBorder()
     }
+    
+    @IBAction func saveBtnClicked(_ sender : UIButton){
+        
+        WebService.postRequest(url: Constant.baseUrl+Constant.sendOtpToMobileNumber, requestMethod: Constant.postMethod, params: ["mobile_no":self.mobileTF.text ?? ""]) { (error, response) in
+            
+            if error == nil{
+                
+            }
+        }
+    }
 
 }
